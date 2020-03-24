@@ -53,6 +53,37 @@
           "SetValues": []
         }
       ]
+    },
+    {
+      "DocumentTypeId": "Devis.CategoriededevisA.Societe2",
+      "Group": "Devis",
+      "Category": "Categorie de devis A",
+      "Name": "Societe 2",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Devis.CategoriededevisA.Societe2.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Devis.CategoriededevisA.Societe2.siret",
+          "FieldName": "siret",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Devis.CategoriededevisA.Societe2.total",
+          "FieldName": "total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
     }
   ],
   "Groups": [
