@@ -1,7 +1,78 @@
 ﻿{
   "DataContractVersion": "1.0",
-  "DocumentTypes": [],
-  "Groups": [],
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Devis.Dronova.Devis_Societe_1_Dronova",
+      "Group": "Devis",
+      "Category": "Dronova",
+      "Name": "Devis_Societe_1_Dronova",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Devis.Dronova.Devis_Societe_1_Dronova.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Devis.Dronova.Devis_Societe_1_Dronova.siret",
+          "FieldName": "siret",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Devis.Dronova.Devis_Societe_1_Dronova.total",
+          "FieldName": "total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Devis.Dronius.Devis_Societe_2_Dronius",
+      "Group": "Devis",
+      "Category": "Dronius",
+      "Name": "Devis_Societe_2_Dronius",
+      "OptionalUniqueIdentifier": null,
+      "TypeField": {
+        "FieldId": "Devis.Dronius.Devis_Societe_2_Dronius.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Devis.Dronius.Devis_Societe_2_Dronius.siret",
+          "FieldName": "siret",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        },
+        {
+          "FieldId": "Devis.Dronius.Devis_Societe_2_Dronius.total",
+          "FieldName": "total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": []
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Devis",
+      "Categories": [
+        "Dronius",
+        "Dronova"
+      ]
+    }
+  ],
   "SupportedLanguages": [
     {
       "Name": "Undetermined Language",
